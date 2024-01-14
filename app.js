@@ -11,7 +11,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const User = require('./models/user');
 const MongoStore = require('connect-mongo');
-const db_URL = process.env.DB_URL || 'mongodb://127.0.0.1:27017/E-com-6Aug'
+const db_URL = process.env.DB_URL || 'mongodb://127.0.0.1:27017/E-comm-Sachin'
 
 mongoose.connect(db_URL)
     .then(() => console.log('E-com-6Aug connected'))

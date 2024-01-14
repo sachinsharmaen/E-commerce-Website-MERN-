@@ -26,3 +26,31 @@ main {
 .fa-solid{
     color: red;
 }
+
+.navbar{
+    background-color: #09080885;
+    backdrop-filter: blur(10px);
+}
+
+.footer{
+    background-color: #09080885;
+    backdrop-filter: blur(10px);
+}
+
+body{
+    background-color: #0908084d
+}
+
+.card{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  18px 18px 50px #c7c7c7,
+             -18px -18px 50px #f9f9f9;
+}
+
+.card-body{
+    border-radius: 0px;
+background: #e0e0e0;
+box-shadow:  -5px 5px 100px #828282,
+             5px -5px 100px #ffffff;
+}
